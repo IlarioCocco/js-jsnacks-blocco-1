@@ -7,7 +7,9 @@ var containerNumeri = [];
 // se è dispari inseriscilo nell’array
 for (var i = 0; i < 6; i++) {
     var numero = prompt("inserisci il numero");
-    var resto = numero % 1;
+    var resto = numero % 2;
     containerNumeri.push(numero);
+    if (resto != 0) {
+    }
 }
 console.log(containerNumeri);
