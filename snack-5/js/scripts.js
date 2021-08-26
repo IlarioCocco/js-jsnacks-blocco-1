@@ -8,8 +8,9 @@ var containerNumeri = [];
 for (var i = 0; i < 6; i++) {
     var numero = prompt("inserisci il numero");
     var resto = numero % 2;
-    containerNumeri.push(numero);
+    
     if (resto != 0) {
+        containerNumeri.push(numero);
     }
 }
 console.log(containerNumeri);
